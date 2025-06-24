@@ -19,7 +19,7 @@ Flux is a lightweight command-line task scheduler that lets you add, run, pause,
 
 | Command                 | Description                              | Usage Example                                    |
 |-------------------------|------------------------------------------|-------------------------------------------------|
-| `add <command> <interval>` | Add a new task to run every `<interval>` seconds | `./flux add "notify-send 'Stretch!'" 600`       |
+| `add <command> <interval>` | Add a new task to run every `<interval>` seconds | `./flux add "./backup.sh" 60`       |
 | `list`                  | Show all tasks with details              | `./flux list`                                    |
 | `start`                 | Start the scheduler (runs in background) | `./flux start`                                   |
 | `stop`                  | Stop the running scheduler               | `./flux stop`                                    |
@@ -56,7 +56,7 @@ Flux is a lightweight command-line task scheduler that lets you add, run, pause,
 
 ---
 
-Enjoy automating your recurring tasks with ease!
+Built for simplicity and power, schedule, monitor, and manage tasks with ease.
 
 ---
 
