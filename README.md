@@ -1,4 +1,4 @@
-# Flux - Simple Task Scheduler CLI HIIII
+# Flux - Simple Task Scheduler CLI
 
 Flux is a lightweight command-line task scheduler that lets you add, run, pause, resume, and delete recurring tasks easily. It runs tasks at specified intervals in the background and supports basic task management.
 
