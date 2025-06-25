@@ -1,0 +1,15 @@
+# macOS system files
+.DS_Store
+
+# VSCode folder (optional)
+.vscode/
+
+# Build files
+*.o
+*.obj
+*.exe
+
+# Runtime/task data
+tasks.txt
+
+
