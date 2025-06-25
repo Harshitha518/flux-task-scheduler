@@ -1,5 +1,5 @@
 # Flux - Lightweight CLI Task Scheduler  
-#### Video Demo: [https://youtu.be/YOUR_VIDEO_LINK](https://youtu.be/YOUR_VIDEO_LINK)  
+#### Video Demo: [https://youtu.be/2ezIbKbAnBk?si=i2AZy5DfGFrY4Z1v](https://youtu.be/2ezIbKbAnBk?si=i2AZy5DfGFrY4Z1v)  
 #### Description:
 
 Flux is a lightweight, command-line task scheduler written in C that enables users to automate recurring tasks on a customizable interval. Inspired by the idea of creating a simplified alternative to `cron`, Flux was designed to be beginner-friendly and easily configurable.
@@ -34,7 +34,7 @@ With Flux, users can add commands to run every n seconds, pause or resume specif
 - **`tasks.txt`**: Stores active tasks persistently between runs. Each task is saved with its ID, interval, command, and status (active/paused).
 - **`task_logs.txt`**: Stores the full history of task executions including timestamp, command, and ID.
 - **`Makefile`**: Simplifies compilation using `make`. Also includes a `clean` option to remove build artifacts.
-- **`.gitignore`**: Excludes build files, logs, and local environment folders from the repo (e.g., `.DS_Store`, `*.o`, etc.).
+- **`.gitignore`**: Excludes build files, logs, and local environment folders from the repo.
 - **`README.md`**: This file!
 
 ---
