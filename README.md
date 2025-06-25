@@ -63,7 +63,7 @@ I wanted to something useful yet technically educational. Through CS50x, I learn
 ---
 
 
-## 💻 Commands & Usage
+## Commands & Usage
 
 | Command                       | Description                                                | Example                                                                 |
 |------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------|
