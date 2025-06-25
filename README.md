@@ -4,30 +4,24 @@ Flux is a lightweight command-line task scheduler that lets you add, run, pause,
 
 ---
 
-## Features
+## Features & Commands
 
-- Add commands to run repeatedly on a custom interval  
-- Run scheduler in the background  
-- Pause and resume individual tasks without stopping others  
-- View all scheduled tasks with status and last run time  
-- Stop scheduler gracefully  
-- Persistent task storage between runs  
+## 💻 Commands & Usage
 
----
-
-## Commands
-
-| Command                 | Description                              | Usage Example                                    |
-|-------------------------|------------------------------------------|-------------------------------------------------|
-| `add <command> <interval>` | Add a new task to run every `<interval>` seconds | `./flux add "./backup.sh" 60`       |
-| `list`                  | Show all tasks with details              | `./flux list`                                    |
-| `start`                 | Start the scheduler (runs in background) | `./flux start`                                   |
-| `stop`                  | Stop the running scheduler               | `./flux stop`                                    |
-| `pause <task_id>`       | Pause a specific task by its ID          | `./flux pause 2`                                 |
-| `resume <task_id>`      | Resume a paused task by its ID            | `./flux resume 2`                                |
-| `delete <task_id>`      | Delete a task by its ID                   | `./flux delete 1`                                |
-| `help`                  | Show usage instructions                   | `./flux help`                                    |
-
+| Command                       | Description                                                | Example                                                                 |
+|------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------|
+| `./flux add "<cmd>" <int>`   | Add a new recurring task with interval in seconds          | `./flux add "echo 'Hello'" 30`                                         |
+| `./flux start`               | Start the task scheduler in the background                 | `./flux start`                                                         |
+| `./flux list`                | Show all tasks with ID, command, interval, status, etc.    | `./flux list`                                                          |
+| `./flux pause <task_id>`     | Pause a running task by ID                                 | `./flux pause 2`                                                       |
+| `./flux resume <task_id>`    | Resume a paused task by ID                                 | `./flux resume 2`                                                      |
+| `./flux delete <task_id>`    | Delete a task completely by ID                             | `./flux delete 1`                                                      |
+| `./flux status`              | Check if the scheduler is currently running                | `./flux status`                                                        |
+| `./flux stop`                | Gracefully stop the running scheduler                      | `./flux stop`                                                          |
+| `./flux history`             | View all past logs of tasks with timestamps                | `./flux history`                                                       |
+| `./flux history <task_id>`   | View logs specific to one task                             | `./flux history 2`                                                     |
+| `./flux archive`             | Archive the log file to start fresh logs                   | `./flux archive`                                                       |
+| `./flux help`                | Show usage instructions                                    
 ---
 
 ## Sample Use Cases
@@ -41,7 +35,7 @@ Flux is a lightweight command-line task scheduler that lets you add, run, pause,
 
 ## Getting Started
 
-1. Compile the program using `gcc` or your preferred C compiler  
+1. Compile the program using `make`  
 2. Use `./flux add "<command>" <interval_in_seconds>` to add tasks  
 3. Start the scheduler with `./flux start`  
 4. Manage tasks using `pause`, `resume`, `delete`, and view them with `list`  
