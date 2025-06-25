@@ -46,9 +46,6 @@ int add_task(const char *command, int interval_seconds) {
     // Increase count of stored tasks
     task_count++;
 
-    // printf("\n\nTask of '%s' with ID of %d has been added.\n\n", t->command, t->id);
-    // printf("Recently added task will occur every %d seconds.\n\n\n", t->interval_seconds);
-
     // Return new task's id
     return t->id;
 }
