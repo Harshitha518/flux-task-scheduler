@@ -56,7 +56,7 @@ Flux is a lightweight command-line task scheduler that lets you add, run, pause,
 
 ---
 
-Built for simplicity and power, schedule, monitor, and manage tasks with ease.
+Built for simplicity and power, schedule, monitor, and manage tasks with ease. CHANGE HERE!!
 
 ---
 
