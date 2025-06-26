@@ -1,4 +1,5 @@
-# Flux - Lightweight CLI Task Scheduler  
+# Flux - Lightweight CLI Task Scheduler
+### CS50x Final Project
 #### Video Demo: [https://youtu.be/2ezIbKbAnBk?si=i2AZy5DfGFrY4Z1v](https://youtu.be/2ezIbKbAnBk?si=i2AZy5DfGFrY4Z1v)  
 #### Description:
 
