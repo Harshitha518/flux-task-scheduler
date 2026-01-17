@@ -1,7 +1,7 @@
 # macOS system files
 .DS_Store
 
-# VSCode folder (optional)
+# VSCode folder
 .vscode/
 
 # Build files
